@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Telugu', serif;
+    color: rgb(72, 67, 67);
+}
+body{
+    background-color: #F2F5FA !important;
+    margin: 20px;
+}
+
+.img {
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+    padding-left: 5px;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin: 0  auto;
+}
+.column {
+    flex: 25%;
+}
+
+
+
+@media (max-width: 600px) {
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.card-img{
+    width: 100%;
+    padding-left: 0;
+}
+
+}
