@@ -2,9 +2,7 @@ import React from 'react'
 import './body.css'
 
 const Card = ({ id, urls, alt }) => {
-    const { regular } = urls
-
-  
+    const { regular } = urls 
 
   return (
     <>   

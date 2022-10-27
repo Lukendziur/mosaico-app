@@ -30,11 +30,12 @@ const getCollection = async() => {
 
   return (
     <>
-
    <div className="row"> 
   {
+    // Remember: arrImages is the number of columns we decide on imgGalleryFunction (util.js file)
   arrImages.length > 0 &&
   arrImages.map((arrImg, index) => (
+  
     <div className="column" key={index}>
       {
       arrImg.map((singleImg) => (
@@ -47,11 +48,8 @@ const getCollection = async() => {
         urls={singleImg.urls}
         alt={singleImg.alt_description}
         />     
-        )
-      
-      )  
-
-      
+        )     
+      )        
       }
 
     </div>
